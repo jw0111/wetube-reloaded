@@ -7,7 +7,7 @@
     "url": "git+https://github.com/jw0111/wetube-reloaded.git"
   },
   "scripts": {
-    "dev": "nodemon --exec babel-node index.js"
+    "dev": "nodemon -L --exec babel-node src/server.js"
   },
   "author": "Ether",
   "license": "MIT",
@@ -16,7 +16,9 @@
   },
   "homepage": "https://github.com/jw0111/wetube-reloaded#readme",
   "dependencies": {
-    "express": "^4.17.3"
+    "express": "^4.17.3",
+    "i": "^0.3.7",
+    "morgan": "^1.10.0"
   },
   "devDependencies": {
     "@babel/core": "^7.17.5",
